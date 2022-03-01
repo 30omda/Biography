@@ -1,0 +1,46 @@
+<section class="experience section"id="experiance">
+        <h2 class="section-title">Experience</h2>
+         
+      <div class="experience__container bd-grid">
+        <div class="experience__content">
+            <div class="experience__time">
+              <span class="experience__rounder"></span>
+              <span class="experience__line"></span>
+            </div>
+             
+            <div class="experience__data bd-grid">
+              <h3 class="experience__title"> MASTER OF DESIGN </h3>
+              <span class="experience__company"> From 2020 DEC |tech Soft </span>
+              <p class="experience__description"> Work The Company dedicating the best responbility in the area 
+                that carresponds, deliverig the best results for the company and improving productivity. 
+              </p>
+            </div>
+
+            <div class="experience__time">
+              <span class="experience__rounder"></span>
+              <span class="experience__line"></span>
+            </div>
+           
+            <div class="experience__data bd-grid">
+              <h3 class="experience__title"> UI/UX DESIGN AREA </h3>
+              <span class="experience__company"> From 2021 FEP | Adobe Inc </span>
+              <p class="experience__description"> Work The Company dedicating the best responbility in the area 
+                that carresponds, deliverig the best results for the company and improving productivity. 
+              </p>
+            </div>
+
+            <div class="experience__time">
+              <span class="experience__rounder"></span>
+              <span class="experience__line"></span>
+            </div>
+         
+            <div class="experience__data bd-grid">
+              <h3 class="experience__title">MOBILE APPLECATION DEVELOPER</h3>
+              <span class="experience__company">I will study it from 2021 to 2022</span>
+              <p class="experience__description">Work The Company dedicating the best responbility in the area 
+                that carresponds, deliverig the best results for the company and improving productivity. 
+              </p>
+          </div>
+        </div>
+      </div>
+</section>

@@ -1,0 +1,376 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Responsive resume CV</title>
+    <link rel="stylesheet"href="style.css"/>
+    <!--Box Icons-->
+    <link rel="stylesheet"
+  href="https://cdn.jsdelivr.net/npm/boxicons@latest/css/boxicons.min.css">
+</head>
+<body>
+  <!----------HEADER---------------->
+    <header class="a-header"id="header">
+      <nav class="nav bd-container">
+        <a href="" class="nav__logo">Smith</a>
+
+      <div class="nav__menu" id="nav-menu">
+        <ul class="nav__list">
+          <li class="nav__item">
+            <a href="#home" class="nav__link active-link">
+              <i class='bx bx-home nav__icon'></i>Home
+            </a>
+          </li>
+
+          <li class="nav__item">
+            <a href="#profile" class="nav__link">
+              <i class='bx bx-user nav__icon' ></i>Profile
+            </a>
+          </li>
+
+          <li class="nav__item">
+            <a href="#education" class="nav__link">
+              <i class='bx bx-book-alt nav__icon' ></i>education
+            </a>
+          </li>
+
+          <li class="nav__item">
+            <a href="#skills" class="nav__link">
+              <i class='bx bx-receipt nav__icon' ></i>Skills
+            </a>
+          </li>
+
+          <li class="nav__item">
+            <a href="#experience" class="nav__link">
+              <i class='bx bx-briefcase-alt nav__icon' ></i>Experience
+            </a>
+          </li>
+
+          <li class="nav__item">
+            <a href="#Certificates" class="nav__link">
+              <i class='bx bx-award nav__icon' ></i>Certificates
+            </a>
+          </li>
+
+          <li class="nav__item">
+            <a href="#references" class="nav__link">
+              <i class='bx bx-link-external nav__icon' ></i>References
+            </a>
+          </li>
+        </ul>
+      </div>
+      <div class="nav__toggle" id="nav-toggle">
+        <i class='bx bx-grid-alt' ></i>
+      </div>
+      </nav>
+    </header>    
+    <!--main-->
+    <main class="1-main bd-container">
+     <!-----------All elments within this div, is generated in PDF--------------------->
+     <div class="resume"id="area-cv">
+      <div class="resume__left">
+        <!--===============HOME===================-->
+        <section class="home" id="home">
+          <div class="home__container section bd -grid">
+            <div class="home__data-grid">
+              <img src="30omdaa.jpg"alt=""class="home__img">
+
+              <h1 class="home__title">MOHAMED<b> EMAD</b></h1>
+              <h3 class="home__profession">Wed developer</h3>
+
+              <!-----Button to download your CV saved in the pdf folder. Available------>
+              <div>
+                <a download="" href="assets/pdf/ResumeCv.pdf"class="home__button-moveil">download</a>
+              </div>
+            </div>
+            <div class="home__address bd-grid">
+              <span class="home__information">
+                <i class='bx bx-map home__icon'></i>Nasr City, Al Manteqah Al Oula, Naser City
+              </span>
+              <span class="home__information">
+                <i class='bx bx-envelope home__icon' ></i>mmm.Emad64@gmail.com
+              </span>
+              <span class="home__information">
+                <i class='bx bx-phone home__icon' ></i>+201125011939
+              </span>
+            </div>
+          </div>
+          <!--Theme change button -->
+          <i class='bx bx-moon change-theme'title="Theme"id="theme-button"></i>
+
+   <!--Button to generate and download the pdf for desktop-->
+          <i class='bx bx-download generate-pdf'title="Generate PDF"id="resume-button"></i>
+        </section>
+
+   <!--SOCIAL-->
+
+   <section class="social section">
+     <h2 class="section-title">social</h2>
+
+     <div class="social__container bd-grid">
+       <a href="https://www.linkedin.com/in/mohamed-emad-1108251b8"target="_blank" class="social__link">
+        <i class='bx bxl-linkedin social__icon' ></i>@M.Emad
+       </a>
+       <a href="https://www.facebook.com/profile.php?id=100004828350935"target="_blank"class="social__link">
+        <i class='bx bxl-facebook social__icon' ></i>Mohamed Emad
+       </a>
+       <a href="https://instagram.com/30omdaaa?igshid=qkcb43lv7a1d"target="_blank"class="social__link">
+        <i class='bx bxl-instagram social__icon'></i>30omdaa
+       </a>
+     </div>
+   </section>
+
+   <!--PROFILE-->
+   <section class="profile section"id="profile">
+     <h2 class="section-title">profile</h2>
+     <p class="profile__description">I am a person, responsible with their work 
+       during working hours.
+       finish serveral years of experiance and achievements in the labor filed.
+     </p>
+   </section>
+
+   <!--EDUCATION-->
+   <section class="education section"id="education">
+     <h2 class="section-title">Education</h2>
+
+     <div class="education__container bd-grid">
+       <div class="education__content">
+         <div class="education__time">
+           <span class="education__rounder"></span>
+           <span class="education__line"></span>
+         </div>
+         <div class="education__data bd-grid">
+           <h3 class="education__title">MASTER OF DESIGN</h3>
+           <span class="education__studies">Univerty od studies</span>
+           <span class="education__year">2020 - 2024</span>
+         </div>
+       </div>
+       <div class="education__content">
+        <div class="education__time">
+          <span class="education__rounder"></span>
+          <span class="education__line"></span>
+        </div>
+
+        <div class="education__data bd-grid">
+          <h3 class="education__title">WEB DEVELOPER</h3>
+          <span class="education__studies">Institute studies</span>
+          <span class="education__year">2020 - OCT</span>   
+        </div>
+       </div>
+      <div class="education__content">
+        <div class="education__time">
+          <span class="education__rounder"></span>
+          <!--<span class="education__line"></span>-->
+        </div>
+        
+        <div class="education__data bd-grid">
+          <h3 class="education__title">MASTER IN UI/UX</h3>
+          <span class="education__studies">Institut studies</span>
+          <span class="education__year">2021 - FEB</span> 
+        </div>
+      </div>
+     </div>
+   </section>
+
+   <!--SKALLS-->
+   <section class="skills section" id="skills">
+     <h2 class="section-title">Skills</h2>
+
+     <div class="skills__content bd-grid">
+      <ul class="skills__data">
+       <li class="skills__name">
+         <span class="skills__circle"></span> Html
+       </li>
+       <li class="skills__name">
+        <span class="skills__circle"></span> Css
+      </li>
+      <li class="skills__name">
+        <span class="skills__circle"></span> Saaa
+      </li>
+      <li class="skills__name">
+        <span class="skills__circle"></span> JavaScript
+      </li>
+       </ul>
+
+       <ul class="skills__data">
+        <li class="skills__name">
+          <span class="skills__circle"></span> Angular
+        </li>
+        <li class="skills__name">
+         <span class="skills__circle"></span> Firebase
+       </li>
+       <li class="skills__name">
+         <span class="skills__circle"></span> React
+       </li>
+        </ul>
+     </div>
+   </section>
+
+  </div>
+
+       <div class="resume__right">
+        <!--====EXPERIANCE====-->
+
+        <section class="experience section"id="experience">
+          <h2 class="section-title">Experience</h2>
+           
+        <div class="experience__container bd-grid">
+          <div class="experience__content">
+              <div class="experience__time">
+                <span class="experience__rounder"></span>
+                <span class="experience__line"></span>
+              </div>
+               
+              <div class="experience__data bd-grid">
+                <h1 class="experience__title"> MASTER OF DESIGN </h1>
+                <span class="experience__company"> From 2020 DEC |tech Soft </span>
+                <p class="experience__description"> Work The Company dedicating the best responbility in the area 
+                  that carresponds, deliverig the best results for the company and improving productivity. </p>
+              </div>
+          </div> 
+            <div class="experience__content"> 
+              <div class="experience__time">
+                <span class="experience__rounder"></span>
+                <span class="experience__line"></span>
+              </div>
+             
+              <div class="experience__data bd-grid">
+                <h1 class="experience__title"> UI/UX DESIGN AREA </h1>
+                <span class="experience__company"> From 2021 FEP | Adobe Inc </span>
+                <p class="experience__description"> Work The Company dedicating the best responbility in the area 
+                  that carresponds, deliverig the best results for the company and improving productivity. 
+                </p>
+              </div>
+            </div>
+              <div class="experience__content">
+                <div class="experience__time">
+                    <span class="experience__rounder"></span>
+                    <!--<span class="experience__line"></span>-->
+                </div>
+              
+                <div class="experience__data bd-grid">
+                  <h1 class="experience__title">MOBILE APPLECATION DEVELOPER</h1>
+                  <span class="experience__company">I will study it from 2021 to 2022</span>
+                  <p class="experience__description">Work The Company dedicating the best responbility in the area 
+                  that carresponds, deliverig the best results for the company and improving productivity. 
+                </p>
+             </div>
+            </div>
+          </div>
+  </section>
+      
+
+        <!--====CERTIFICATES====-->
+  <section class="certificat esecton" id="Certificates">
+    <h2 class="section-title">certificates</h2> 
+
+    <div class="certificate__container bd-grid">
+      <div class="certificate__content">
+        <h3 class="certificate__title">cerfified compliance in the work area (2019)</h3>
+        <p class="certificate__description">for meeting expectation of laeding the team to work the specified tasks in the labor field.</p>
+        <br>
+      </div>
+
+      <div class="certificate__content">
+        <h3 class="certificate__title">certificate of attendace on computer technology</h3>
+        <p class="certificate__description">for meeting expectation of laeding the team to work the specified tasks in the labor field.</p>
+        <br>
+      </div>
+
+      <div class="certificate__content">
+        <h3 class="certificate__title">achievement medal for productivity excellence during the year (2019)</h3>
+        <p class="certificate__description">for meeting expectation of laeding the team to work the specified tasks in the labor field.</p>
+        <br>
+      </div>
+    </div>
+    
+  </section>
+
+        <!--====REFEReNCES=====-->
+  <section class="References section"id="references">
+    <h2 class="section-title">References</h2>
+
+    <div class="references__container bd-grid">
+      <div class="references__content bd-grid">
+        <span class="references__subtitle">Sr. Director</span>
+        <h3 class="references__title">Mr. Clay Doe</h3>
+        <ul class="references__contact">
+          <li>Phone: 999-777-666</li>
+          <li>Email: user@email.com</li>
+        </ul>
+      </div>
+
+      <div class="references__content bd-grid">
+        <span class="references__subtitle">Mag. developer</span>
+        <h3 class="references__title">Mr. Osama Elzero</h3>
+        <ul class="references__contact">
+          <li>Phone: 999-777-666</li>
+          <li>Email: user@email.com</li>
+        </ul>
+      </div>
+    </div>
+  </section>
+
+        <!--======LANGUAGES=======-->
+  <section class="languages section">
+    <h2 class="section-title">languages</h2>
+
+    <div class="languages__container">
+      <ul class="languages__content bd-grid">
+        <li class="languages__name">
+          <span class="languages__circle"></span> English.
+        </li>
+        <li class="languages__name">
+          <span class="languages__circle"></span> Italian.
+        </li>
+        <li class="languages__name">
+          <span class="languages__circle"></span> German.
+        </li>
+
+      </ul>
+    </div>
+  </section>
+
+        <!--=====INTERESTS=====-->
+      <section class="interests section">
+        <h2 class="section-title">Interests</h2>
+
+        <div class="interests__container bd-grid">
+          <div class="interests__content">
+            <i class='bx bx-headphone interests__icon'></i>
+            <span class="interests_name">Music</span>
+          </div>
+
+          <div class="interests__content">
+            <i class='bx bxs-plane-alt interests__icon' ></i>
+            <span class="interests_name">Travel</span>
+          </div>
+          <div class="interests__content">
+           
+            <i class='bx bx-dumbbell interests__icon'></i>
+            <span class="interests_name">Gym</span>
+          </div>
+
+          <div class="interests__content">
+            <i class='bx bx-run interests__icon'></i>
+            <span class="interests_name">Running</span>
+          </div>
+
+        </div>
+      </section>
+      </div>
+    </div>
+ </main>
+ <!--================= SCROLL TOP =============-->
+<a href="#" class="scrolltop" id="scroll-top">
+  <i class='bx bx-up-arrow-alt scrolltop__icon'></i>
+</a>
+
+ <!--============ HTML 2PDF ===============-->
+    <script crs="html2pdf.bandle.js"></script>
+    <!--App js-->
+    <script src="app.js"></script>
+</body>
+</html>
